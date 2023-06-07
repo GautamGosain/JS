@@ -1,0 +1,58 @@
+.test {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ 
+ .card {
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+ }
+ 
+ .card h3 {
+   padding: 2px;
+   margin: 8px 0;
+ }
+ 
+ 
+ .card p {
+   flex: 1;
+   margin: 14px 0;
+ }
+
+ #leftSection{
+    width: 450px;
+    justify-content: center;
+    position: relative;
+ }
+
+ .imageNames {
+    width: 420px;
+    height: 100px;
+ }
+
+ .pageKey {
+    padding: 10px;
+    width: 30px;
+    background-color: gray;
+ }
+
+ .arrows {
+    padding: 10px;
+    background-color: gray;
+ }
+
+ .navigationKeys {
+    position: absolute;
+    bottom: 0px;
+ }
+
+ .selected {
+    background-color: aqua;
+ }
+
+ .selectedPage {
+    background-color: brown;
+ }
+ 
